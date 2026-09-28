@@ -46,21 +46,25 @@ input[type="range"] {
     padding: 25px;
     border-radius: 10px;
 }
-
-.result h2 {
-    color: #28446d;
-    margin: 0 0 10px;
+.emi-row {
+    display: flex;
+    align-items: center;
+    gap: 15px;
 }
 
-.result h3 {
+.emi-row h2 {
+    color: #28446d;
+    margin: 0;
+}
+
+.emi-row h3 {
     color: #00b894;
     font-size: 32px;
-    
+    margin: 0;
 }
-
 .result p {
     color: #28446d;
-    font-size: 32px;
+    font-size: 27px;
     margin: 12px 0;
 }
 
