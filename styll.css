@@ -49,13 +49,22 @@ input[type="range"] {
 
 .result h2 {
     color: #28446d;
+    margin: 0 0 10px;
 }
 
 .result h3 {
     color: #00b894;
     font-size: 32px;
+    
 }
 
 .result p {
     color: #28446d;
+    font-size: 32px;
+    margin: 12px 0;
+}
+
+.result p span {
+    color: #00b894;
+    font-weight: bold;
 }
